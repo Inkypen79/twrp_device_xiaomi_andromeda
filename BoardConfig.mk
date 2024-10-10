@@ -110,7 +110,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
 
 TARGET_RECOVERY_DEVICE_MODULES += \
-    android.hardware.vibrator-ndk_platform \
+    android.hardware.vibrator-V2-ndk \
     libion \
     libxml2
 
